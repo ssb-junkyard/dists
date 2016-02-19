@@ -6,7 +6,7 @@ Packages for Debian-based operating systems
 
 Add the repo to your system:
 
-	sudo sh -c 'echo deb https://github.com ssbc/packages/raw/master >> /etc/apt/sources.list'
+	sudo sh -c 'echo deb https://github.com ssbc/packages/raw/master main >> /etc/apt/sources.list'
 
 Activate https transport for apt:
 
