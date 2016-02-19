@@ -12,7 +12,7 @@ Packages: $(PKG) overrides
 	dpkg-scanpackages ssbc > $@
 
 %.deb:
-	curl -f --create-dirs -o $@ https://github.com/$@
+	curl -L -f --create-dirs -o $@ https://github.com/$@
 
 %.gz: %
 	rm -f $@
