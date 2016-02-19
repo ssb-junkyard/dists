@@ -1,4 +1,4 @@
-INDEX = Packages Packages.gz Release InRelease Release.gpg
+INDEX = Packages Packages.gz InRelease
 PKG =
 
 all: pkgs $(INDEX)
@@ -18,13 +18,9 @@ Packages: $(PKG) overrides
 	rm -f $@
 	gzip -k $<
 
-%.gpg: %
-	rm -f $@
-	gpg -ab -o $@ $<
-
 In%: %
 	rm -f $@
-	gpg --clearsign -o $@ $<
+	gpg -a -s --clearsign -o $@ $<
 
 clean:
 	@rm -vf $(INDEX)
