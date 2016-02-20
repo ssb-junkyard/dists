@@ -1,4 +1,4 @@
-PKGS = main/Packages main/Packages.gz
+PKGS = main/binary-amd64/Packages main/binary-amd64/Packages.gz
 INDEX = InRelease $(PKGS)
 PKG =
 
@@ -9,11 +9,12 @@ include packages.mk
 Release: $(PKGS) apt-release.conf
 	apt-ftparchive -c=apt-release.conf release . > $@
 
-main/Packages: $(PKG) overrides
-	dpkg-scanpackages ssbc > $@
+main/binary-amd64/Packages: $(PKG:%=main/binary-amd64/%) Makefile
+	(cd main/binary-amd64; dpkg-scanpackages ssbc) | \
+		sed '/^Filename/ s/ssbc\///' > $@
 
-%.deb:
-	curl -L -f --create-dirs -o $@ https://github.com/$@
+%_amd64.deb:
+	curl -L -f --create-dirs -o main/binary-amd64/$@ https://github.com/$@
 
 %.gz: %
 	rm -f $@

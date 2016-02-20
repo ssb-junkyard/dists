@@ -1,0 +1,5 @@
+Component: main
+Origin: github.com
+Label: ssbc
+Architecture: amd64
+Description: SSBC debian package repository
