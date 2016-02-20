@@ -2,7 +2,7 @@ PKGS = main/binary-amd64/Packages main/binary-amd64/Packages.gz
 INDEX = InRelease $(PKGS)
 PKG =
 
-all: pkgs $(INDEX)
+all: $(INDEX)
 
 include packages.mk
 
@@ -24,4 +24,4 @@ In%: %
 clean:
 	@rm -vf $(INDEX)
 
-.PHONY: all pkgs clean
+.PHONY: all clean
