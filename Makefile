@@ -13,9 +13,6 @@ main/binary-amd64/Packages: $(PKG:%=main/binary-amd64/%) Makefile
 	(cd main/binary-amd64; dpkg-scanpackages ssbc) | \
 		sed '/^Filename/ s/ssbc\///' > $@
 
-%_amd64.deb:
-	curl -L -f --create-dirs -o main/binary-amd64/$@ https://github.com/$@
-
 %.gz: %
 	rm -f $@
 	gzip -k $<
