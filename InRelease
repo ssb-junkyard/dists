@@ -2,47 +2,47 @@
 Hash: SHA256
 
 Architectures: amd64
-Codename: ssbc/packages/raw/master
+Codename: raw/master
 Components: main
-Date: Sat, 20 Feb 2016 00:02:28 UTC
+Date: Sat, 20 Feb 2016 00:05:47 UTC
 Description: SSBC debian package repository
 Label: ssbc
 Origin: github.com
 Suite: custom
 MD5Sum:
- 660f3cf605902c9b1c33e621c4dfbccd              198 Release
+ cef9d247fe62c8fb133802e9923c71a9              184 Release
  f91752ed736938acab4e3e47650e5083              460 main/Packages
  a51191147e583717c70550ba7ea8fb03              347 main/Packages.gz
  e9295bfb5ac3efef5913afe589d12457              413 pw-releases/Packages
 SHA1:
- 1e22811359cf1637ed721b539343ce63ed8ae65a              198 Release
+ a5b1f559d06848b3f204379d53befb6dc2e914a1              184 Release
  3279c3cf0355ce556a1bb96f7d6e2f981ed58169              460 main/Packages
  0854e1d6dc41f97f55160376e52f072da47d32b1              347 main/Packages.gz
  dca8f99a0dd7d189fc0e057cec2ca9b599d69d07              413 pw-releases/Packages
 SHA256:
- 53c60c60e171760e96f54cda5a577989ee7d7927d9e4f59a849911734eeafd3a              198 Release
+ 12197eead445dbb949f6d988966d2fe6f5229ca5253d6b7281a93c0a75602959              184 Release
  2b22bc24572db46a363fa86fac2eadd03a559abc4a1963ec3929e12e484130a3              460 main/Packages
  e668584dbd4df6de5ca65b9da578f25dd843d9e1a46e51b53487a2dcf9110a1a              347 main/Packages.gz
  c31878aa23994de2758149bf9de62432134cf96dac3daf51c20ca99165a4a02f              413 pw-releases/Packages
 SHA512:
- f774bc51e0aaf4abc167c98628b82737a81857ffac71edb1f7402dff16cc8ae0f556be6f50eea5bffd62f407218c2c6662cc719886f0b8f0812de95b3b8c1105              198 Release
+ 998bd2a9eb71b6424a5ff14a3826a75797addef2b5171d79143cf646a712e6937032551e36743d2a68992b34c980cb58223711941923ec5d9cd11f7e3f1d60a5              184 Release
  342a72e22c385cf82864b780f44fd741d095b475cd1607f5449b18c6330d065a272ab31335102e582dc9dfea47fc1ca95383fd480263adbabacf24306a0ce90c              460 main/Packages
  d37f05f307395be3b312daa8e64a1b2515aff7c0ddf2d70c5d263a01ef63fb799a8cf33837777b0ec96af54456706ca9fbb1ccde2f2fa1f44a6e4bb1b85d10a8              347 main/Packages.gz
  1102f62dd058dc219befab3c358dbf476141da9f61624d9b9eea4f792eacb4bb1ecbce0bf14c474d750f51c7fdaabaea6553bd8f3fb011303ffec3af4c30e7f5              413 pw-releases/Packages
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQIcBAEBCAAGBQJWx60UAAoJEMKNlbsBI2fqoUcP/30mc5kvImIeuk0mK2W/tSN7
-3p4Z3DpIYNAiPAvSNMdqdwCowAVhzulW3AK/gr5ArrNpCxZkORZGImFnOxktfFMa
-UonOFPq/dHfBU/Om3Inr2m5BtX2pox0WQNID3hKVoISQY4FS3kedFa75KNi9jq1M
-6dbyFDYRRIhZCfV05L+N1tUHGCxTR+X51YLjVEUl9rsEMgdS/0bQokvqhVdPxASH
-KijAEPRZyDVw/0v9FkJb01SgHf6AH1ozLbcV89j4dfvF1ZYCNLOdoBjfvXujd3KA
-09idsFHmzppI4fSlAUUjIiS8nbxqQcVC+Gfq5+q13+OCSR8UPG7WR8X1KEXTMuY3
-rp7UTTd69gmwMwea5RE5zaKkAacTLEMLZH3PV5OI4YgtmPYo2zV6k7G0nicdt7lU
-kAeNi4pkKFsekt2HbXqzj6MowrcHlQ2sheB1oWXSHbvNnkDzOFvQWb+SbfyUjX3R
-PzCSa1curxFcL9O4mNWdNtCdeljfHFG/ZJAOUCB6cIuIn12VqFS9LyphP/QogUWc
-XuvBEDcP3hyTDCqiYRKwYs0CWcMK8W0jbk0CUwac8II22zXR7dlSMBQN4Kq3kaRw
-un5GuLsEvZ/IFUWhVfGkGoEb2I1ocPZWa1qpjstyLdpLpJb25lat+aszDxIz/chZ
-9IAYkIqR6BRnmJVqlY9v
-=2iNs
+iQIcBAEBCAAGBQJWx63bAAoJEMKNlbsBI2fqK+IP+wURWItjDxE2XcRM/lB8KxqH
+x39rJRJbNAcAfoqCgGaSpfP+Fm4t5PARwaMt4Ve1T16yVW6OUOkg6GKWJgtt3eyV
+0biI5JEGbn8KovNfj4beumuQoEb6/nfh3oWPKYlmhplAIiDCIzxzcni/vtVgr8T8
+YDfLz4hAaKAHWM2DZ0XAL+LcA0k7dv3AyYbDxGWwO9oZV/CSeWGaWiJtNGkjAm2d
+zpIVAyvKya3CbUwyNmOAJUZkIdTvY+NyrnyFv0yK5jgw3oVDYUKSmDK1qDaSMbu7
+vSiTNL060v30OOzpdHoP8DFzDn1+NxG3SJDaA0sNyeMiMg+kxWNw4d3sC4XnvrHt
+Ts2o9XwBI3vYm86ypdyH5fwMluiSlIyd7vtOBkPKat75JlCNYWueR4Ffi/CT0YkF
+2k7N8xOFKtrCRYVQG476NROchO7dfcBGp7VgdI5GF+kDYRHqDrtyOFDsWw9qH1qi
+3Nl17Ebkd3n8LvOOd+Z6v11oSYj46GZu0nDRN7bxMB6kqeVnCZ7ebt0ExN4UuOZj
+LJ7kL55BlxAnujh+J4qgEDQK9KXGcxGdfF/i/1R1RVpS3z/VvAvFQZW2QbQlKV2U
+TkVwV08GhGxJTJdLe0eSaqCyxXdTqngQdJCE1NycRkMPsjxeuRfRCIZiIrSPS/f/
+hhXRgiTOBOv6ISMCjtFr
+=urV9
 -----END PGP SIGNATURE-----
