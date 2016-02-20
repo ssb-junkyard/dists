@@ -12,4 +12,6 @@ After a release is made on one of the projects:
 
 - Run `make`. Authenticate with GPG to sign the release as needed.
 
-- Commit and push.
+- Commit and push. Note that if you add or commit with `--patch`, git will
+  not prompt you to add the modified binary Packages.gz file(s), so you have
+  to add them explicitly or use `git commit --all`.
