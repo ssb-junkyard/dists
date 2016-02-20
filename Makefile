@@ -1,14 +1,15 @@
-INDEX = Packages Packages.gz InRelease
+PKGS = main/Packages main/Packages.gz
+INDEX = InRelease $(PKGS)
 PKG =
 
 all: pkgs $(INDEX)
 
 include packages.mk
 
-Release: Packages apt-release.conf
+Release: $(PKGS) apt-release.conf
 	apt-ftparchive -c=apt-release.conf release . > $@
 
-Packages: $(PKG) overrides
+main/Packages: $(PKG) overrides
 	dpkg-scanpackages ssbc > $@
 
 %.deb:
