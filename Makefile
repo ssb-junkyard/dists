@@ -9,9 +9,9 @@ include packages.mk
 Release: $(PKGS) apt-release.conf
 	apt-ftparchive -c=apt-release.conf release . > $@
 
-main/binary-amd64/Packages: $(PKG:%=main/binary-amd64/%) Makefile
-	(cd main/binary-amd64; dpkg-scanpackages ssbc) | \
-		sed '/^Filename/ s/ssbc\///' > $@
+main/binary-amd64/Packages: packages $(PKG_AMD64) Makefile
+	dpkg-scanpackages --arch amd64 $< |\
+		sed '/^Filename/ s/$<\///' > $@
 
 %.gz: %
 	rm -f $@
