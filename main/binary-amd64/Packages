@@ -1,13 +1,13 @@
 Package: ssb-patchwork-electron
-Version: 2.4.1
+Version: 2.5.0
 Architecture: amd64
 Maintainer: Paul Frazee <pfrazee@gmail.com>
-Installed-Size: 204329
-Filename: patchwork-electron/releases/download/v2.4.1/ssb-patchwork-electron_2.4.1_amd64.deb
-Size: 50874120
-MD5sum: 0c4a95fe2d8b842f3810566676c7259b
-SHA1: c62e4c2775630472fba43cc6bcfd99ee4cb8bcb1
-SHA256: b8f79a65a24d053ba6ea9e2bc97698072a60a5b4a8a410b993ea108d6ec76476
+Installed-Size: 204392
+Filename: patchwork-electron/releases/download/v2.5.0/ssb-patchwork-electron_2.5.0_amd64.deb
+Size: 50858404
+MD5sum: ab37049743b3d290fc22282b817d34e4
+SHA1: 62531fa8f11c5ba59089f610cb74b2b9ba485774
+SHA256: 0ca27c4e08e73a6023514f3004852b96113baefa5544dd737d06d20fff94a3c4
 Priority: optional
 Description: p2p social sharing
 
