@@ -2,7 +2,7 @@
 
 Repository for packages of SSBC projects for Debian-based operating systems.
 
-## Adding the repository
+## Install
 
 Add the repo to your system:
 
@@ -19,3 +19,10 @@ Add one of our developer's public key to the trusted key list for apt:
 Now you can install Patchwork:
 
 	sudo apt-get update && sudo apt-get install ssb-patchwork-electron
+
+## Contributing
+
+1. Publish a `.deb` file in a release of a SSBC project. Or, contribute
+  a packaging script so that a SSBC member can build and publish the release.
+2. Add the path to the released `.deb` to the `packages.mk` file in this repo.
+3. Open a pull-request with the updated `packages.mk` file.
