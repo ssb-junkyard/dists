@@ -1,6 +1,5 @@
 PKGS = main/binary-amd64/Packages main/binary-amd64/Packages.gz
 INDEX = InRelease $(PKGS)
-PKG =
 
 all: $(INDEX)
 
@@ -14,11 +13,11 @@ main/binary-amd64/Packages: $(PKG_AMD64) Makefile | packages
 		sed '/^Filename/ s/$|\///' > $@
 
 %.gz: %
-	rm -f $@
+	@rm -vf $@
 	gzip -k $<
 
 In%: %
-	rm -f $@
+	@rm -vf $@
 	gpg -a -s --clearsign -o $@ $<
 
 clean:
