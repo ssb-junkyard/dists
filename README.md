@@ -6,7 +6,7 @@ Repository for packages of SSBC projects for Debian-based operating systems.
 
 Add the repo to your system:
 
-	sudo sh -c 'echo deb https://github.com/ssbc raw/stable main >> /etc/apt/sources.list'
+	sudo sh -c 'echo deb [arch=amd64] https://github.com/ssbc raw/stable main >> /etc/apt/sources.list'
 
 Activate https transport for apt:
 
